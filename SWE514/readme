@@ -1,1 +1,4 @@
-
+AssemblyConverter is a software that generates A86 assembly codes for certain expressions and
+assignment statements. As a product, the program will take prefix expressions, i.e y = ff and x = ( x & y )
+| 0f on which values in hexadecimal form, generate the A86 Assembly codes considering the expressions
+given, and will show the new values in hexadecimal form.
