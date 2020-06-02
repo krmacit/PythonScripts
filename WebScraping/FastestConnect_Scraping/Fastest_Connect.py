@@ -21,8 +21,8 @@ def openFastestConnect():
         driver.get(url)
         
         # Login
-        driver.find_element_by_id("CAMUsername").send_keys("TurkishAirlines")
-        driver.find_element_by_id("CAMPassword").send_keys("Kba_2019S")
+        driver.find_element_by_id("CAMUsername").send_keys("****")
+        driver.find_element_by_id("CAMPassword").send_keys("****")
         driver.find_element_by_id("cmdOK").send_keys(Keys.ENTER)
         
         # Open Fastest Connect and wait for load
